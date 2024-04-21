@@ -1074,3 +1074,7 @@ a {
   .center {
     display: flex;
     justify-content: center; /* Centers content horizontally */ }
+
+  .bg-brown {
+    background-color: #A52A2A; /* A rich brown color */
+    }
