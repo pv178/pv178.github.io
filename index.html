@@ -21,47 +21,40 @@
 
 <div class="site-wrap">
 
-  <div class="site-mobile-menu">
-    <div class="site-mobile-menu-header">
-      <div class="site-mobile-menu-close mt-3">
-        <span class="icon-close2 js-menu-toggle"></span>
-      </div>
-    </div>
-    <div class="site-mobile-menu-body"></div>
-  </div> <!-- .site-mobile-menu -->
-
   <div class="site-navbar-wrap bg-white">
-    <div class="site-navbar-top">
-      <div class="container py-2">
-        <div class="row align-items-center">
-          <div class="col-4">
-            <a href="https://www.facebook.com/zr.irpa/" class="p-2 pl-0"><span class="icon-facebook"></span></a>
-            <a href="https://www.instagram.com/zr.irpa" class="p-2 pl-0"><span class="icon-instagram"></span></a>
-          </div>
-          <div class="col-4 text-center">
-            <!-- Centered Language Switcher with Flag -->
-            <div class="d-flex justify-content-center">
-              <a href="index.html" class="mr-2">срб (ћир)</a>
-              <img src="flag.png" alt="Serbian Flag" width="20" class="mr-2">
-              <a href="#indexlatin.html"> |   srb (lat)</a>
-              <img src="flag.png" alt="Serbian Flag" width="20">
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="d-flex justify-content-end">
-              <a href="#" class="d-flex align-items-center ml-auto mr-4">
-                <span class="icon-phone mr-2"></span>
-                <span class="d-none d-md-inline-block">+387 65 991 536</span>
-              </a>
-              <a href="#" class="d-flex align-items-center">
-                <span class="icon-envelope mr-2"></span>
-                <span class="d-none d-md-inline-block">mail@irpa.rs</span>
-              </a>
-            </div>
-          </div>
+    <div class="container py-2">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-3 d-flex justify-content-start">
+          <a href="https://www.facebook.com/zr.irpa/" class="p-2 pl-0"><span class="icon-facebook"></span></a>
+          <a href="https://www.instagram.com/zr.irpa" class="p-2 pl-0"><span class="icon-instagram"></span></a>
+        </div>
+
+        <div class="col-6 text-center">
+          <!-- Language Switcher in the Center -->
+          <a href="index.html">
+            <img src="flag.png" alt="Serbia Flag" style="height: 16px; width: 16px;" />
+            срб (ћир)
+          </a>
+          |
+          <a href="#indexlatin.html">
+            <img src="flag.png" alt="Serbia Flag" style="height: 16px; width: 16px;" />
+            srb (lat)
+          </a>
+        </div>
+
+        <div class="col-3 d-flex justify-content-end">
+          <a href="#" class="d-flex align-items-center ml-auto mr-4">
+            <span class="icon-phone mr-2"></span>
+            <span class="d-none d-md-inline-block">+38765991536</span>
+          </a>
+          <a href="#" class="d-flex align-items-center">
+            <span class="icon-envelope mr-2"></span>
+            <span class="d-none d-md-inline-block">mail@irpa.rs</span>
+          </a>
         </div>
       </div>
     </div>
+  </div>
     
   
 
@@ -205,7 +198,7 @@
     </div>
   </div>
 
-  <div class="promo py-5 bg-primary" data-aos="fade" id="contact-section">
+  <div class="promo py-5 bg-brown" data-aos="fade" id="contact-section">
     <div class="container text-center">
       <h2 class="d-block mb-0 font-weight-light text-white"><a href="#" class="text-white d-block">Контактирајте нас!</a></h2>
     </div>
@@ -223,35 +216,36 @@
     </iframe>
 </div>
 
-  <footer class="site-footer bg-light py-4">
-    <div class="container">
-      <div class="row justify-content-between align-items-center">
-        <div class="col-md-4">
-          <div class="d-flex justify-content-start">
-            <a href="https://www.facebook.com/zr.irpa/" class="p-2 pl-0"><span class="icon-facebook"></span></a>
-            <a href="https://www.instagram.com/zr.irpa" class="p-2 pl-0"><span class="icon-instagram"></span></a>
-          </div>
-        </div>
-
-        <div class="col-md-4 text-center">
-          <p class="mb-0">© 2024 beloborodov™</p>
-        </div>
-
-        <div class="col-md-4">
-          <div class="d-flex justify-content-end">
-            <a href="#" class="d-flex align-items-center mr-4">
-              <span class="icon-phone mr-2"></span>
-              <span class="d-none d-md-inline-block">+387 65 991 536</span>
-            </a>
-            <a href="#" class="d-flex align-items-center">
-              <span class="icon-envelope mr-2"></span>
-              <span class="d-none d-md-inline-block">mail@irpa.rs</span>
-            </a>
-          </div>
-        </div>
+<footer class="site-footer bg-light py-3"> <!-- Reduced padding to minimize space -->
+  <div class="container">
+    <div class="row justify-content-between align-items-center"> <!-- Ensures correct alignment and spacing -->
+      
+      <!-- Social media icons -->
+      <div class="col-4 d-flex justify-content-start"> <!-- Adjusted column width -->
+        <a href="https://www.facebook.com/zr.irpa/" class="p-1"><span class="icon-facebook"></span></a>
+        <a href="https://www.instagram.com/zr.irpa" class="p-1 ml-1"><span class="icon-instagram"></span></a> <!-- Small margin-left for slight separation -->
       </div>
+
+      <!-- Copyright text -->
+      <div class="col-4 text-center"> <!-- Adjusted column width -->
+        <p class="mb-0">© 2024 beloborodov™</p>
+      </div>
+
+      <!-- Contact information -->
+      <div class="col-4 d-flex justify-content-end"> <!-- Adjusted column width -->
+        <a href="#" class="d-flex align-items-center mr-1"> <!-- Reduced margin-right -->
+          <span class="icon-phone mr-1"></span> 
+          <span class="d-none d-md-inline-block">+387 65 991 536</span>
+        </a>
+        <a href="#" class="d-flex align-items-center"> 
+          <span class="icon-envelope mr-1"></span> 
+          <span class="d-none d-md-inline-block">mail@irpa.rs</span>
+        </a>
+      </div>
+      
     </div>
-  </footer>
+  </div>
+</footer>
 
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
