@@ -1070,3 +1070,7 @@ a {
     .block-37:hover .image:before, .block-37:focus .image:before {
       opacity: .7;
       visibility: visible; }
+
+  .center {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */ }
