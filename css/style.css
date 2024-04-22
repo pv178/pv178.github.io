@@ -470,6 +470,18 @@ a {
   .site-blocks-cover.inner-page, .site-blocks-cover.inner-page .row {
     min-height: 600px;
     height: calc(80vh); }
+    
+    @media (max-width: 768px) { 
+      .site-blocks-cover, .site-blocks-cover .row {
+        min-height: 400px; /* Reduce the minimum height */
+        height: calc(50vh); /* You can also set it to auto or a different value */
+      }
+      
+      .site-blocks-cover.inner-page, .site-blocks-cover.inner-page .row {
+        min-height: 400px; /* Adjust the inner page height */
+        height: calc(30vh); /* Set to auto or another desired height */
+      }
+    }
   .site-blocks-cover .sub-text {
     font-size: 1.1rem;
     text-transform: uppercase;
